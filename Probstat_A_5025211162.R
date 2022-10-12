@@ -5,13 +5,12 @@ p <- 0.2
 (P <- dgeom(x, p))
 
 # B
-n <- 10000
+n <- 1000000
 X <- 3
-(randomGeometric <- rgeom(n, p) == X)
+randomGeometric <- rgeom(n, p) == X
 (mean(randomGeometric))
 
-# C
-
+# C - Penjelasan di Github
 # D
 hist(rgeom(n, p))
 
@@ -43,7 +42,9 @@ x <- 6
 
 # B
 n <- 356
+x <- 6
 hist(rpois(n, lambda))
+(rpois(n, lambda) == x)
 
 # C
 
@@ -55,9 +56,10 @@ x <- 2
 v <- 10
 
 # A
-(probability <- dchisq(x, 10))
+(probability <- dchisq(x, v))
 
 # B
+n <- 100
 hist(rchisq(n, v), xlab = "X", ylab = "V")
 
 # C
@@ -108,4 +110,6 @@ plot(data)
 # B
 breaks <- 50
 hist(data, breaks, main = "5025211162_Darren Prasetya_Probstat_A_DNhistogram")
+
+# C
 (variance <- var(data))
