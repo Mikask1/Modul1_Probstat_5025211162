@@ -112,7 +112,8 @@ X2 = 6
 <img width="652" alt="Soal 6 plot" src="https://user-images.githubusercontent.com/88318140/195284687-90bcab74-6ae7-440b-904b-e6288ce5a818.png">
 
 b. Generate Histogram dari Distribusi Normal dengan breaks 50.
-- Untuk generate Histogram dengan `breaks = 50`, kita dapat menggunakan fungsi `hist()`
+- Untuk generate Histogram dengan `breaks = 50`, kita dapat menggunakan fungsi `hist()` dengan parameter `breaks = 50`
+<img width="652" alt="Soal 6 DNhistogram" src="https://user-images.githubusercontent.com/88318140/195287350-f531ff95-646a-40ab-a543-0dd5485d2660.png">
 
 c. Nilai Varian (σ²) dari hasil generate random nilai Distribusi Normal.
 - Untuk mendapatkan variansi dari hasil random Distribusi Normal, kita dapat menggunakan fungsi `var()` dan mendapatkan hasil `86.14653`
